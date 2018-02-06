@@ -7,7 +7,6 @@ public class Main {
 
         System.out.println(len + "\n" + sqr);
 
-
         int i = 4;
         int k = i++ + ++i;
         System.out.println(k);
