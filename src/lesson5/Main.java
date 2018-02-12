@@ -10,5 +10,6 @@ public class Main {
         int i = 4;
         int k = i++ + ++i;
         System.out.println(k);
+        System.out.println(i);
     }
 }
