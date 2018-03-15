@@ -1,4 +1,4 @@
-package lesson9;
+package lesson09;
 
 public class Dog extends Pet {
     private boolean speciality;

@@ -1,4 +1,4 @@
-package lesson5;
+package lesson05;
 
 public class MathModule {
     static final double PI = 3.14;

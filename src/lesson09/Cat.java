@@ -1,4 +1,4 @@
-package lesson9;
+package lesson09;
 
 public class Cat extends Pet {
     private boolean canCatchMice;

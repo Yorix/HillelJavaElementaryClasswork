@@ -1,4 +1,4 @@
-package lesson8;
+package lesson08;
 
 public class Recursion {
     public static void main(String[] args) {
