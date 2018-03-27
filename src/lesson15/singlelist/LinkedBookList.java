@@ -1,4 +1,4 @@
-package lesson15.hashtable.singlelist;
+package lesson15.singlelist;
 
 
 import lesson15.hashtable.Pair;
@@ -86,5 +86,26 @@ public class LinkedBookList {
             return true;
         }
         return false;
+    }
+
+    public static class Node {
+        private Pair pair;
+        private Node next;
+
+        public Node(Pair pair) {
+            this.pair = pair;
+        }
+
+        public Node getNext() {
+            return next;
+        }
+
+        public void setNext(Node next) {
+            this.next = next;
+        }
+
+        public Pair getPair() {
+            return pair;
+        }
     }
 }

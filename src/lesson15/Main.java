@@ -1,4 +1,7 @@
-package lesson15.hashtable;
+package lesson15;
+
+import lesson15.hashtable.Book;
+import lesson15.hashtable.MyHashTable;
 
 public class Main {
     public static void main(String[] args) {

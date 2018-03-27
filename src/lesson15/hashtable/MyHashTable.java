@@ -1,7 +1,6 @@
 package lesson15.hashtable;
 
-import lesson15.hashtable.singlelist.LinkedBookList;
-import lesson15.hashtable.singlelist.Node;
+import lesson15.singlelist.LinkedBookList;
 
 public class MyHashTable implements HashTable {
     private final static int SIZE = 255;
@@ -53,7 +52,7 @@ public class MyHashTable implements HashTable {
             return list.getFirst().getPair().getValue();
         }
 
-        Node result = list.find(key);
+        LinkedBookList.Node result = list.find(key);
 
         return result == null ? null : result.getPair().getValue();
     }
