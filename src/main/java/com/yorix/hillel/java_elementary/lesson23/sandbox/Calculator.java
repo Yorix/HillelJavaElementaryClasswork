@@ -22,4 +22,8 @@ public class Calculator {
     public int pow(int i) {
         return i * i;
     }
+
+    public static void main(String[] args) {
+        System.out.println("Done!");
+    }
 }
