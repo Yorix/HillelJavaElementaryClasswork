@@ -1,4 +1,4 @@
-package com.yorix.hillel.java_elementary.lesson23.sandbox;
+package com.yorix.hillel.java_elementary.lesson23_24;
 
 import static org.junit.Assert.*;
 import org.junit.BeforeClass;

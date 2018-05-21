@@ -36,7 +36,7 @@
                     <archive>
                         <manifest>
                             <mainClass>
-                                com.yorix.hillel.java_elementary.lesson23.sandbox.Calculator
+                                com.yorix.hillel.java_elementary.lesson23_24.Calculator
                             </mainClass>
                         </manifest>
                     </archive>
