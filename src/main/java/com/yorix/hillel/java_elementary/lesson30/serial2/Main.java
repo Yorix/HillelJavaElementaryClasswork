@@ -18,6 +18,8 @@ public class Main {
         Writer writer = new Writer(file);
         writer.write(list);
 
+        list = null;
+
         Reader reader = new Reader(file);
         List newList = reader.read();
 
